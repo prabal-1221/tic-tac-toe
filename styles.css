@@ -7,6 +7,7 @@ nav {
     height: 80px;
     background-color: black;
     color: white;
+    font-size:5vw
     display: flex;
     align-items: center;
     padding: 0 15px;
@@ -14,7 +15,6 @@ nav {
 
 nav ul {
     list-style: none;
-    font-size: 6vw;
 }
 
 .gameContainer {
@@ -76,6 +76,15 @@ nav ul {
 }
 
 @media screen and (max-width: 500px) {
+    nav {
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-size:6vw
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
     .gameContainer {
         flex-wrap: wrap;
     }
